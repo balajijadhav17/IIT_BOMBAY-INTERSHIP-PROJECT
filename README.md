@@ -14,8 +14,13 @@ This project implements a complete machine learning pipeline for analyzing cogni
 ```bash
 pip install -r requirements.txt
 
-# Run full pipeline
+## Run full pipeline
 cd project python main.py
-# Next
-cd last_second streamlit run app.py
+# After completely run of main.py file then start app.py
+streamlit run app.py
 
+## Clone the repository
+git clone https://github.com/yourusername/eeg-emotion-recognition.git
+
+# Navigate to project directory
+cd eeg-emotion-recognition
