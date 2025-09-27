@@ -1,14 +1,40 @@
-# EEG Emotion Recognition System
+# 🧠 EEG Emotion Recognition System
 
-## Project Description
-This project implements a complete machine learning pipeline for analyzing cognitive states using multi-modal physiological data including EEG, eye tracking, GSR, and facial emotion analysis.
+A comprehensive multi-modal cognitive state recognition system that analyzes EEG, eye tracking, GSR, and facial emotion data to identify patterns in cognitive states and emotional responses using advanced machine learning techniques.
 
-## Features
-- Multi-modal data integration (EEG, eye tracking, GSR, facial emotions)
-- Advanced ML models (HMM, RNN-HMM hybrid, Seq2Seq with attention)
-- 5 cognitive state detection (Focused, Distracted, Fatigued, Engaged, Bored)
-- Interactive Streamlit dashboard
-- Comprehensive analysis and visualization
+
+## 🌟 Key Features
+
+### 🔬 Multi-modal Data Integration
+- *EEG Data*: Brainwave analysis (Delta, Theta, Alpha, Beta, Gamma bands)
+- *Eye Tracking*: Gaze patterns, pupil dilation, fixation metrics
+- *GSR (Galvanic Skin Response)*: Emotional arousal measurement
+- *Facial Emotion Analysis*: Valence, attention, engagement metrics
+- *I-VT Algorithm*: Fixation detection and saccade analysis
+
+### 🤖 Advanced Machine Learning Pipeline
+- *Hidden Markov Models (HMM)*: 5-state cognitive modeling
+- *RNN-HMM Hybrid*: Temporal sequence modeling with LSTM networks
+- *Seq2Seq with Attention*: Transformer-based sequence prediction
+- *Real-time State Classification*: Cognitive state identification
+
+### 📈 Interactive Visualization
+- *Streamlit Dashboard*: Web-based interactive interface
+- *t-SNE Trajectory Plots*: 2D visualization of cognitive state evolution
+- *Transition Matrix Analysis*: State transition probabilities
+- *Real-time Monitoring*: Live cognitive state tracking
+
+### 🎯 Cognitive State Detection
+Identify and classify 5 primary cognitive states with physiological indicators:
+
+| State | Emoji | Description | Key Physiological Indicators |
+|-------|--------|-------------|-----------------------------|
+| *State 0* | 🎯 | *Focused* | High beta waves, stable gaze, reduced blink rate |
+| *State 1* | 😕 | *Distracted* | Increased theta waves, gaze variability, high saccade rate |
+| *State 2* | 😴 | *Fatigued* | Elevated alpha waves, slow pupil response, increased blink duration |
+| *State 3* | 🤔 | *Engaged* | Moderate beta waves, positive valence, steady attention |
+| *State 4* | 🥱 | *Bored* | Reduced physiological responses, gaze disengagement |
+
 
 ## Installation
 ```bash
