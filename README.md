@@ -1,5 +1,4 @@
-# Temporal Emotion Transition Modeling for Student Engagement Analysis enough this title ?
-
+# Temporal Emotion Transition Modeling for Student Engagement Analysis 
 A comprehensive multi-modal cognitive state recognition system that analyzes EEG, eye tracking, GSR, and facial emotion data to identify patterns in cognitive states and emotional responses using advanced machine learning techniques.
 
 
